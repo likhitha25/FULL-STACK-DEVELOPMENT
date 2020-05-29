@@ -1,0 +1,11 @@
+  1 cd fullstackdev/
+  4  git status(to verify untracked files)
+  5  git add Day3assignment/
+  6  git commit -m "first commit"
+  7  git log
+  13  git push -u FULL-STACK-DEVELOPMENT 
+  14  git pull FULL-STACK-DEVELOPMENT master
+  15  git push -u FULL-STACK-DEVELOPMENT
+  16  git push --set-upstream FULL-STACK-DEVELOPMENT master(if this step has error)
+  17  git push -f --set-upstream FULL-STACK-DEVELOPMENT master(use this -f is for force pushing of data to the repository)
+
