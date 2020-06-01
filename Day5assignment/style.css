@@ -1,0 +1,16 @@
+#a{
+    color: aqua;
+}
+#b{color: blue;}
+#c{color: brown;}
+#d{text-align: center;}
+#e{text-align: end;}
+#f{text-align: justify;}
+#g{text-align: left;}
+#h{text-align: right;}
+#i{text-transform: capitalize;}
+#j{text-transform: lowercase;}
+#k{text-transform: uppercase;}
+#l{font-style: italic;}
+#m{font-style: normal;}
+#n{font-style: oblique;}

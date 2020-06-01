@@ -1,0 +1,58 @@
+#log{
+    margin: auto;
+    border-style: solid;
+    width: 855px;
+    display: flex;
+    background-color: grey;
+    flex-wrap: wrap;
+}
+#log1{
+    border-style: solid;
+    border-color: red;
+    margin: 30px;
+}
+
+#log2{
+    border-style: solid;
+    border-color: red;
+    margin: 30px;
+}
+
+#text{
+    margin-top: 40PX;
+    text-align: center;
+    font-size: 50px;
+}
+#nav{
+    margin: auto;
+    border-style:solid ;
+}
+#nav{
+    background-color: lightblue;
+    margin: auto;
+    width: 815px;
+    text-align: center;
+}
+#nav li{
+    display: inline-block;
+    text-decoration-style:none ;
+    margin: 10px;
+}
+#nav li a{
+    text-decoration: none;
+}
+#nav1{
+    margin: auto;
+    float: left;
+    border-style: solid;
+}
+#nav1{
+    list-style: none;
+}
+#nav1 li a{
+    text-decoration: none;
+}
+#nav1 li{
+    margin: 20px;
+    text-decoration-color: black;
+}
