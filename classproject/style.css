@@ -1,0 +1,121 @@
+body{
+    width: auto;
+    background-color:gray;
+}
+#head{
+    border-style: solid;
+    background-color:gray;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#headleft{
+    float: left;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    margin: 10px;
+}
+#headright{
+    float: right;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid black;
+}
+#name{
+    font-size: 30px;
+    margin: 10px;
+}
+#name a{
+    text-decoration: none;
+}
+hr{
+    height: 2px;
+    background-color: black;
+}
+#navbar{
+    border-style: solid;
+    border-radius: 10px;
+    background-color:gray;
+}
+#nav li{
+    display: flex;
+    display: inline-block;
+    background-color:linen(255,125,125);
+    text-align: center;
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    text-decoration: none;
+    justify-content: center;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#nav li a{
+    text-decoration: none;
+}
+#main{
+    border:solid black ;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: initial;
+    
+}
+#matterimg{
+    border: solid black;
+    border-radius: 10px;
+    margin: 30px;
+    height: 40%;
+    width: 30%;
+}
+
+#matter{
+    border-style: solid ;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+    margin: 10px;
+}
+#user1{
+    display: flex;
+    justify-content: initial;
+    justify-content: space-between;
+    margin: 20px;
+}
+#pass1{
+    display: flex;
+    justify-content: initial;
+    justify-content: space-between;
+    margin: 20px;
+}
+#app1{
+    border: solid black;
+    width: max-content;
+    margin: auto;
+}
+#num1{
+    display: flex;
+    justify-content: initial;
+    justify-content: space-between;
+    margin: 20px;
+}
+#msg1{
+    display: flex;
+    justify-content: initial;
+    justify-content: space-between;
+    margin: 20px;
+}
+input{
+    margin-left: 100px;
+}
+marquee{
+    width: 100%;
+    height: auto;
+    background-color:gray;
+    justify-content: center;
+}
