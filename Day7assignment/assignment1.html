@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ASSIGNMENT 1</title>
+        ><script>
+            function Validate(){
+                var p=/^(([0-2][0-9])|([3][0-1]))[/](([0][0-9])|([1][0-2]))[/]([1][9][0-9]{2})|([2][0-9]{3})$/;
+                var dob=document.getElementById("dob").value;
+                var yr=dob.split("/");
+                if(p.test(dob)){
+                    if((2020-parseInt(yr[2]))>=18){
+                        window.alert("eligible");
+                    }
+                    else{
+                        window.alert(" not eligible");
+                    }
+                }
+                else{
+                    window.alert(" enter correct date(dd/mm/yy)");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        Date of birth:<input type="text" placeholder="enter date" id="dob" />
+        <button type="button" onclick="Validate()">VALIDATE</button>
+    </body>
+</html>
